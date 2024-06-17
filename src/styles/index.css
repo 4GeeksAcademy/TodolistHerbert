@@ -1,12 +1,82 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    background: #110433;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .TodoWrapper {
+    background: #22225e;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  
+  .TodoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #948bac;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #fff;
+  }
+  
+  .todo-input::placeholder {
+    color: #833b3b4d;
+  }
+  
+  .todo-btn {
+    background: #56545c;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+  }
+  
+  .Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #b9b6c2;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .fa-trash {
+    margin-left: 0.75rem;
+  }
+  
+  .incompleted {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .completed {
+    color: #f2eff8;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+  }
